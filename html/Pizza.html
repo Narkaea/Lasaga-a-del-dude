@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lasagaña del dude</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style>
+    section {
+      margin-bottom: 80px;
+    }
+
+    section:last-child {
+      margin-bottom: 160px;
+    }
+
+    h3 {
+      color: black;
+    }
+
+    .section-header {
+      text-align: center;
+      color: gray;
+    }
+
+    .section-title {
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+
+      display: inline;
+      border-bottom: 3px solid #fbff00;
+    }
+
+    .main-header {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      color: rgba(255, 255, 255, .5);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .featured {
+      background-image: url(assets/image/pizza-show-1_preview.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 700px;
+    }
+
+    .jumbotron {opacity: 0.8;
+    background-color: black;
+  font-family: 'Oswald', sans-serif;
+color: rgb(221, 152, 18);
+text-align: center;
+position: relative;
+top: 120px;}
+
+    .btn {
+      background-color: rgb(230, 241, 17);
+      border-radius: 20px 20px 20px 20px;
+      border: 0;
+      color: rgb(0, 0, 0);
+      font-family: 'Oswald', sans-serif;
+    }
+
+    .btn:hover {
+      background-color: rgb(237, 134, 13);
+    }
+
+
+    .googlemap,
+    .contact {
+      background-color: #333333;
+      color: #FFFFFF;
+
+    }
+
+
+    .googlemap-content {
+      top: -80px;
+      height: 380px !important;
+      width: 100% !important;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .googlemap iframe {
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      height: 200%;
+      width: 200%;
+    }
+
+
+
+    .copyright {
+      background-color: #ffffff;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Main header -->
+  <header class="main-header fixed-top">
+    <div class="container">
+      <!-- Menu principal -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" alt="">
+                </a>
+        <img src="assets/image/logo_preview.png" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nos Pizzas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nos Salades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end .navbar -->
+
+    </div>
+
+  </header>
+  <!-- end - .main-header -->
+
+  <!-- Main content -->
+  <div class="main-content">
+
+    <!-- Featured -->
+    <section class="featured">
+      <div class="jumbotron">
+    <h1 class="display-4">Lasagaña del Dude.</h1>
+    <p class="lead"> De temps en temps y a un homme… Je dirais pas un héros, c'est quoi un héros ? Mais de temps en temps y a un homme qui, et c'est du Dude que je parle là, de temps en temps y a un homme… Enfin, un homme qui est exactement à sa place,</p>
+    <hr class="my-4">
+    <p>Comme dirait quelqu’un de beaucoup plus avisé que moi : quelque fois c’est toi qui cogne le bar, mais d'autres fois, et ben, c'est le bar qui te cogne. </p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Ça c'est ton opignon, mec.
+</a>
+    </p>
+  </div>
+    </section>
+    <!-- end .featured -->
+
+    <!-- nos pizzas -->
+    <section class="pizzas">
+      <div class="container">
+
+        <!-- Section header -->
+        <div class="section-header">
+          <h3 class="section-title"> Nos Pizzas</h3>
+          <p></p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis saepe, laboriosam rerum beatae ipsam quisquam neque laudantium. Aperiam commodi cumque, dolores ab tempora, assumenda cupiditate eius, esse consequatur maxime autem?</p>
+        </div>
+        <!-- end .sectier -->
+        <div class="row">
+
+
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/pizza-1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Travatia</h5>
+                <p class="card-text">Elle est pas dégueue mais je la conseil pas pour autant.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+
+          <!-- ------------------------------ -->
+          <!-- ------------------------------ -->
+          <!-- ------------------------------ -->
+
+
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/pizza-1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Traviata deux</h5>
+                <p class="card-text">La même, mais plus chers.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/pizza-3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"> La raclette</h5>
+                <p class="card-text">Elle te défonces la gueule, mais avec le sourire.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/pizza-4.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">La Picarde</h5>
+                <p class="card-text">Parce qu'on est bien chez sois.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/pizza-8.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">L'Anonyme</h5>
+                <p class="card-text"> Elle a juste besoin d'amour.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/pizza-7.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">La Dudedique</h5>
+                <p class="card-text">Comme un russe blanc, mais en pizza.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/pizza-6.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">La</h5>
+                <p class="card-text">Elle parle d'elle même.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/pizza-5.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">La patalare</h5>
+                <p class="card-text">La dérnière de la liste.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+
+          <!-- ------------------------------ -->
+          <!-- ------------------------------ -->
+          <!-- ------------------------------ -->
+
+        </div>
+
+      </div>
+    </section>
+    <!-- end .pizzas -->
+
+    <!-- Nos salades -->
+
+    <section class="salads">
+      <div class="container">
+
+        <!-- Section header -->
+        <div class="section-header">
+          <h3 class="section-title"> Nos Salades</h3>
+          <p></p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis saepe, laboriosam rerum beatae ipsam quisquam neque laudantium. Aperiam commodi cumque, dolores ab tempora, assumenda cupiditate eius, esse consequatur maxime autem?</p>
+        </div>
+        <!-- end .section-header -->
+        <div class="row">
+
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/salade-4.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">La seule, l'unique</h5>
+                <p class="card-text">Depuis la nuit des temps, la salades régne en maitre dans l'industrie des légume branchidé.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+
+          <!-- ------------------------------ -->
+          <!-- ------------------------------ -->
+          <!-- ------------------------------ -->
+
+
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/salade-1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Salade</h5>
+                <p class="card-text">C'est un hareng.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/salade-2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Chercher la fausse salade</h5>
+                <p class="card-text">Parce que bon, ça va 5 minutes les conneries.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+          <!-- end - column -->
+          <!-- column -->
+          <div class="col-3 col-md-4 col-sm-6">
+            <div class="card">
+              <img class="card-img-top" src="assets/image/salade-3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">The Salad</h5>
+                <p class="card-text"> Raffinée et élégante, cette assortiments des plus malins saura flatter vos papilles. Laissez vous transporter dans un monde de verdure et de douceur.</p>
+                <a href="#" class="btn btn-sm btn-primary">Give me your money</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </section>
+    <!-- end .salads -->
+
+  </div>
+  <!-- end .main-content -->
+
+  <!-- Main footer -->
+  <footer class="main-footer">
+    <!-- Google Map -->
+    <div class="googlemap">
+      <div class="container">
+        <div class="googlemap-content">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d40496.15573087305!2d3.1346278!3d50.626936!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1516871038733" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Form de contact -->
+    <div class="contact">
+      <div class="container">
+
+            <div class="nom">
+              <input type="text" id="nom" required placeholder="Nom" />
+              <input type="text" id="prenom" required placeholder="Prénom" />
+              <input type="text" id="email" required placeholder="Adresse e-mail">
+
+              <form>
+
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Yup</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tu vois ce qui se passe quand on veux niquer les gens jusqu'au trognon?!" rows="3"></textarea>
+                </div>
+              </form>
+            </div>
+
+      </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="copyright">
+      <div class="container">
+        &copy; 2018 Lasagaña Del Dude
+      </div>
+    </div>
+
+
+
+  </footer>
+  <!-- end .main-footer -->
+
+  <!-- Scripts -->
+</body>
+
+</html>
